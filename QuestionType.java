@@ -1,10 +1,9 @@
-package a1;
 
-import java.util.List;
+import java.util.*;
 
 public interface QuestionType 
 {
-	// Get the candidate answers for the question
+    // Get the candidate answers for the question
     List<String> getCandidateAnswers();
  
     // Check if a given answer is valid
